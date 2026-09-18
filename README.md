@@ -1,6 +1,6 @@
 # API Gerenciador de Tarefas - Clean Architecture
 
-DUPLA: Eric Matheus da Silva Temoteo && Gabriel Samilo Pinto de Oliveira
+DUPLA: Eric Matheus da Silva Temoteo & Gabriel Samilo Pinto de Oliveira
 
 API RESTful para gerenciamento de tarefas e usuários, desenvolvida em **Node.js** com **Express**, **Sequelize** e **SQLite**, aplicando os princípios da **Arquitetura Limpa (Clean Architecture)** e **Regra de Dependência**. 
 
