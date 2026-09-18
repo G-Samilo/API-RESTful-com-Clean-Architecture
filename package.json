@@ -5,9 +5,11 @@
   "main": "index.js",
   "scripts": {
     "start": "node src/index.js",
-    "dev": "nodemon src/index.js",
+    "swagger": "node swagger.js",
+    "dev": "npm run swagger && nodemon src/index.js",
     "test": "jest"
   },
+
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -19,6 +21,11 @@
     "prettier": "^3.9.6",
     "sequelize": "^6.37.8",
     "sqlite3": "^6.0.1",
-    "supertest": "^7.2.2"
+    "supertest": "^7.2.2",
+    "swagger-ui-express": "^5.0.1"
+  },
+  "devDependencies": {
+    "swagger-autogen": "^2.23.7",
+    "zod": "^4.6.5"
   }
 }
